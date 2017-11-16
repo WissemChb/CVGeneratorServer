@@ -1,0 +1,58 @@
+{
+  "name": "mean_hw",
+  "version": "1.0.0",
+  "description": "This a Hello World mean stack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js",
+    "debug": "node-inspector --web-port=6002"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/quickstart.git"
+  },
+  "author": "RT4 devTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angular/quickstart/issues"
+  },
+  "homepage": "https://github.com/angular/quickstart#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "ejs": "^2.5.6",
+    "email-verification": "^0.4.6",
+    "eslint": "^4.11.0",
+    "express": "^4.14.1",
+    "express-rest-response": "^1.2.0",
+    "express-session": "^1.15.1",
+    "jwt-simple": "^0.5.1",
+    "mongodb": "^2.2.24",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.13.3",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "request-mocha": "^0.2.0"
+  },
+  "devDependencies": {
+    "bouvier-login": "^1.0.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.2.0",
+    "gulp-sourcemaps": "^2.5.0",
+    "gulp-util": "^3.0.8",
+    "mocha": "^3.2.0",
+    "mocha-mongoose": "^1.2.0",
+    "nodemailer": "^3.1.8",
+    "rand-token": "^0.3.0",
+    "should": "^11.2.1"
+  }
+}
